@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4577256017420918882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4577256017420918880}
+  - component: {fileID: 4577256017420918881}
+  m_Layer: 0
+  m_Name: _GS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577256017420918880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4577256017420918882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 475.2712, y: 195.923, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4577256017420918881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4577256017420918882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7847f45e14e414ab74219d0be3ca18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrap: 0
+  drone: {fileID: 493408379547858655, guid: 150d47c8bbf21184d907b33380cf1afa, type: 3}
+  bigBoy: {fileID: 493408379547858655, guid: bb47c9adb4da84140b3adff410143c6c, type: 3}
+  protector: {fileID: 493408379547858655, guid: 12f6f9e854fa94d47a66565b3cd57eef,
+    type: 3}
+  turret: {fileID: 6137429787083798426, guid: ac5a1aa00b7e33249921a5f4bc26f92e, type: 3}
+  scrapCollector: {fileID: 5471504709772461, guid: 69c9f9f062dc5cd45b1ccb47ba28fe69,
+    type: 3}
+  scarpGameObjects:
+  - {fileID: 100000, guid: e415ce8b079c6474e9322f800256364c, type: 3}
+  - {fileID: 100000, guid: 0c24714f8a1e6ae4cb08373ba73aaf5c, type: 3}
+  - {fileID: 100000, guid: c8878a451f983b94098398467bca9e15, type: 3}
+  menuPanel: {fileID: 0}
+  buildingsMenuPanel: {fileID: 0}
+  upgradesMenuPanel: {fileID: 0}
+  weaponsMenuPanel: {fileID: 0}
+  roundLabel: {fileID: 0}
+  enemiesLabel: {fileID: 0}
+  cam1: {fileID: 0}
+  cam2: {fileID: 0}
